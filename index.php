@@ -31,3 +31,4 @@ try {
         $e->getCode(),
         $e
     );
+}
