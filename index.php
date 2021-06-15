@@ -7,7 +7,6 @@ try {
     $dbName = 'laravel';
     $connectionName = getenv("laravel-316805:asia-southeast2:laravel");
     $socketDir = getenv('DB_SOCKET_DIR') ?: '/cloudsql';
-    array $conn_config;
 
     // Connect using UNIX sockets
     $dsn = sprintf(
