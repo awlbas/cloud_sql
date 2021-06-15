@@ -1,7 +1,7 @@
 <?php
 
 try{
-    $dbh = new pdo( 'mysql:host=34.101.221.22:3306;dbname=laravel',
+    $dbh = new pdo( 'sql:dbname=laravel;host=127.0.0.1',
                     'sail',
                     'password',
                     array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
